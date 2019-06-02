@@ -1770,7 +1770,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .header__logo {
    display: inline-block;
    margin: 0;
-   padding: 0;
+   padding: 16px;
    z-index: 501;
 }
 
@@ -1787,6 +1787,49 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .header__logo img {
    width: 265px;
    height: 48px;
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
+
+@keyframes animateShadow {
+   0% {
+      text-shadow: 0px 0px #252526, -1px 1px #252526, -2px 2px #252526, -3px 3px #252526, -4px 4px #252526, -5px 5px #252526, -6px 6px #313134, -7px 7px #313134, -8px 8px #313134, -9px 9px #313134, -10px 10px #313134, -11px 11px #3e3e40, -12px 12px #3e3e40, -13px 13px #3e3e40, -14px 14px #3e3e40, -15px 15px #3e3e40, -16px 16px #4a4a4d, -17px 17px #4a4a4d, -18px 18px #4a4a4d, -19px 19px #4a4a4d, -20px 20px #4a4a4d, -21px 21px #575759, -22px 22px #575759, -23px 23px #575759, -24px 24px #575759, -25px 25px #575759;
+   }
+
+   20% {
+      text-shadow: 0px 0px #313134, -1px 1px #313134, -2px 2px #313134, -3px 3px #313134, -4px 4px #313134, -5px 5px #313134, -6px 6px #3e3e40, -7px 7px #3e3e40, -8px 8px #3e3e40, -9px 9px #3e3e40, -10px 10px #3e3e40, -11px 11px #4a4a4d, -12px 12px #4a4a4d, -13px 13px #4a4a4d, -14px 14px #4a4a4d, -15px 15px #4a4a4d, -16px 16px #575759, -17px 17px #575759, -18px 18px #575759, -19px 19px #575759, -20px 20px #575759, -21px 21px #252526, -22px 22px #252526, -23px 23px #252526, -24px 24px #252526, -25px 25px #252526;
+   }
+
+   40% {
+      text-shadow: 0px 0px #3e3e40, -1px 1px #3e3e40, -2px 2px #3e3e40, -3px 3px #3e3e40, -4px 4px #3e3e40, -5px 5px #3e3e40, -6px 6px #4a4a4d, -7px 7px #4a4a4d, -8px 8px #4a4a4d, -9px 9px #4a4a4d, -10px 10px #4a4a4d, -11px 11px #575759, -12px 12px #575759, -13px 13px #575759, -14px 14px #575759, -15px 15px #575759, -16px 16px #252526, -17px 17px #252526, -18px 18px #252526, -19px 19px #252526, -20px 20px #252526, -21px 21px #313134, -22px 22px #313134, -23px 23px #313134, -24px 24px #313134, -25px 25px #313134;
+   }
+
+   60% {
+      text-shadow: 0px 0px #4a4a4d, -1px 1px #4a4a4d, -2px 2px #4a4a4d, -3px 3px #4a4a4d, -4px 4px #4a4a4d, -5px 5px #4a4a4d, -6px 6px #575759, -7px 7px #575759, -8px 8px #575759, -9px 9px #575759, -10px 10px #575759, -11px 11px #252526, -12px 12px #252526, -13px 13px #252526, -14px 14px #252526, -15px 15px #252526, -16px 16px #313134, -17px 17px #313134, -18px 18px #313134, -19px 19px #313134, -20px 20px #313134, -21px 21px #3e3e40, -22px 22px #3e3e40, -23px 23px #3e3e40, -24px 24px #3e3e40, -25px 25px #3e3e40;
+   }
+
+   80% {
+      text-shadow: 0px 0px #575759, -1px 1px #575759, -2px 2px #575759, -3px 3px #575759, -4px 4px #575759, -5px 5px #575759, -6px 6px #252526, -7px 7px #252526, -8px 8px #252526, -9px 9px #252526, -10px 10px #252526, -11px 11px #313134, -12px 12px #313134, -13px 13px #313134, -14px 14px #313134, -15px 15px #313134, -16px 16px #3e3e40, -17px 17px #3e3e40, -18px 18px #3e3e40, -19px 19px #3e3e40, -20px 20px #3e3e40, -21px 21px #4a4a4d, -22px 22px #4a4a4d, -23px 23px #4a4a4d, -24px 24px #4a4a4d, -25px 25px #4a4a4d;
+   }
+
+   100% {
+      text-shadow: 0px 0px #252526, -1px 1px #252526, -2px 2px #252526, -3px 3px #252526, -4px 4px #252526, -5px 5px #252526, -6px 6px #313134, -7px 7px #313134, -8px 8px #313134, -9px 9px #313134, -10px 10px #313134, -11px 11px #3e3e40, -12px 12px #3e3e40, -13px 13px #3e3e40, -14px 14px #3e3e40, -15px 15px #3e3e40, -16px 16px #4a4a4d, -17px 17px #4a4a4d, -18px 18px #4a4a4d, -19px 19px #4a4a4d, -20px 20px #4a4a4d, -21px 21px #575759, -22px 22px #575759, -23px 23px #575759, -24px 24px #575759, -25px 25px #575759;
+   }
+}
+
+.logo-animation {
+   margin: 0px auto;
+   font-weight: 600;
+   line-height: 0.8;
+   font-size: 56px;
+   text-align: left;
+   color: #FFFFFF;
+   font-family: 'Merriweather', 'Georgia', Time New Roman;
+   text-shadow: 0px 0px #252526, -1px 1px #252526, -2px 2px #252526, -3px 3px #252526, -4px 4px #252526, -5px 5px #252526, -6px 6px #313134, -7px 7px #313134, -8px 8px #313134, -9px 9px #313134, -10px 10px #313134, -11px 11px #3e3e40, -12px 12px #3e3e40, -13px 13px #3e3e40, -14px 14px #3e3e40, -15px 15px #3e3e40, -16px 16px #4a4a4d, -17px 17px #4a4a4d, -18px 18px #4a4a4d, -19px 19px #4a4a4d, -20px 20px #4a4a4d, -21px 21px #575759, -22px 22px #575759, -23px 23px #575759, -24px 24px #575759, -25px 25px #575759;
+   animation-name: animateShadow;
+   animation-duration: 2s;
+   animation-iteration-count: 2;
 }
 
 
